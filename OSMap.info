@@ -1,1 +1,3 @@
-asd
+name = OSMap
+description = This is a map module build for OpenScholar
+core = 7.x
