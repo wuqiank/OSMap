@@ -17,8 +17,15 @@ function OSMap_menu(){
         'description' => 'A map module for OpenScholar',
         'page callback' => 'OSMap_page', // call the page
         'access arguments' => array('access content'), //The argument below is recommended for all users to have access to a page.
-
     );
+	
+	$items['OSMap/list'] = array(
+		'title' => 'list',
+		'type' => MENU_DEFAULT_LOCAL_TASK,
+		'weight' => -10,
+	);
+	
+	
     return $items;
 }
 
