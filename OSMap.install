@@ -5,3 +5,71 @@
  * Date: 14-2-4
  * Time: 下午12:46
  */ 
+ 
+ /**
+  * Implements hook_install()
+  *
+  * Create a default entry in the database
+  */
+  function OSMap_install() {
+  
+    // add a default entry
+  }
+  
+ /**
+  * Implements hook_uninstall()
+  * 
+  * 
+  */
+  function OSMap_uninstall() {
+    
+	// nothing.
+  }
+  
+ /**
+  * Implements hook_schema()
+  *
+  * Defines the database tables used in this module
+  * 
+  */
+  function OSMap_schema() {
+    
+	
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
